@@ -1,10 +1,20 @@
+
+
 {
+	"name": "demo_spl_token",
+	"version": "1.0.0",
+	"description": "",
 	"scripts": {
 		"test": "yarn run ts-mocha -p ./tests/tsconfig.json -t 1000000 ./tests/test.ts"
 	},
+	"type": "module",
 	"license": "MIT",
 	"dependencies": {
-		"@solana/web3.js": "1.63.1"
+		"@metaplex-foundation/js": "^0.19.5",
+		"@metaplex-foundation/mpl-token-metadata": "^3.1.0",
+		"@solana/spl-token": "^0.3.8",
+		"@solana/web3.js": "^1.78.5",
+		"bs58": "^5.0.0"
 	},
 	"devDependencies": {
 		"@types/chai": "^4.3.3",
